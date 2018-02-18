@@ -9,7 +9,7 @@ git clone https://github.com/leafgarland/typescript-vim.git
 git clone https://github.com/MarcWeber/vim-addon-mw-utils.git
 git clone https://github.com/bling/vim-airline
 git clone https://github.com/tpope/vim-commentary.git
-git clone https://github.com/kien/ctrlp.vim.git
+git clone https://github.com/ctrlpvim/ctrlp.vim
 git clone https://github.com/ryanoasis/vim-devicons
 git clone https://github.com/elixir-lang/vim-elixir.git
 git clone https://github.com/pangloss/vim-javascript.git
