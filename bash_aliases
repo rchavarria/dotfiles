@@ -18,3 +18,6 @@ alias ydl='youtube-dl -f "(mp4)[height<400]"'
 # youtube-dl, code 140 (audio)
 alias ydla='youtube-dl -f 251'
 
+# docker and docker-compose
+alias dc='sudo docker-compose'
+
