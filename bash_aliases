@@ -10,6 +10,7 @@ alias gs='git status -sb'
 alias gc='git commit '
 alias gl='git log --pretty=oneline --reverse -30'
 alias glg='git log -20 --graph --decorate --oneline'
+alias glf='git log -10 --decorate --oneline --name-only'
 alias gco='git checkout'
 alias remaster='git checkout master && git fetch origin && git reset --hard origin/master'
 
