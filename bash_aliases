@@ -2,6 +2,9 @@
 # Some aliases defined for command line
 #
 
+# Some alias to edit vim, only one vim instance
+alias v='gvim --remote-silent'
+
 # git aliases
 alias g='git'
 alias gpom='git push origin master'
@@ -12,6 +15,10 @@ alias gl='git log --pretty=oneline --reverse -30'
 alias glg='git log -20 --graph --decorate --oneline'
 alias glf='git log -10 --decorate --oneline --name-only'
 alias gco='git checkout'
+# hace commit sobre el último commit hecho (--amend) reutilizando el mensaje del HEAD (-C HEAD)
+alias gca='git commit --amend -C HEAD'
+
+# overwrite all local changes with latest changes on origin/master repository
 alias remaster='git checkout master && git fetch origin && git reset --hard origin/master'
 
 # youtube-dl
