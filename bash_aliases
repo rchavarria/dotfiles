@@ -29,3 +29,7 @@ alias ydla='youtube-dl -f 251'
 # docker and docker-compose
 alias dc='sudo docker-compose'
 
+# did you forget to use `sudo`?
+# thanks to [Liam O](https://twitter.com/liamosaur/status/506975850596536320)
+alias fuck='sudo $(history -p \!\!)'
+
