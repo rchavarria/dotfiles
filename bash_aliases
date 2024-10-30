@@ -21,6 +21,12 @@ alias gca='git commit --amend -C HEAD'
 # overwrite all local changes with latest changes on origin/master repository
 alias remaster='git checkout master && git fetch origin && git reset --hard origin/master'
 
+# fetch a pull request and create a branch with it
+# pr 325 => creates a branch named `internal/pr-325`
+function pr {
+    git fetch origin refs/pull/$1/head && git checkout -b internal/pr-$1 FETCH_HEAD
+}
+
 # youtube-dl
 alias ydl='youtube-dl -f "(mp4)[height<400]"'
 # youtube-dl, code 140 (audio)
